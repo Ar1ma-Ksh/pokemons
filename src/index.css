@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+.mainDiv {
+  max-width: 1200px;
+  margin: 40px auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.boxes {
+  transition: 1s;
+}
+
+.boxes:hover {
+  transform: scale(1.1);
+  transition: 1s;
+}
